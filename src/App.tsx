@@ -26,13 +26,13 @@ function App() {
 
   return (
     <>
-      <div className="h-screen w-screen flex justify-center items-center">
+      <div className="h-screen w-screen flex justify-center items-center p-2 md:p-0">
         <div className="w-[600px] p-3 rounded-md shadow-lg bg-[#242424]">
           <h1 className="font-bold text-3xl">Todos</h1>
           <p>Add your daily task</p>
 
           <form onSubmit={handleSubmit}>
-            <div className="mt-5">
+            <div className="mt-5 flex items-center justify-center">
               <input
                 type="text"
                 className="w-full h-10 p-2 rounded-lg bg-[#282828] outline-red-400 border border-red-400"
@@ -40,6 +40,7 @@ function App() {
                 placeholder="Enter your todo"
                 onChange={(e) => setTodo(e.target.value)}
               />
+              <button type="submit" className="w-[20%] h-10 ml-2 bg-red-400 rounded-lg">Add</button>
             </div>
           </form>
           <div className="mt-5">
