@@ -17,7 +17,7 @@ A simple Todo application built with React to practice state management using Zu
 
 ## Screenshots
 
-![Home](https://i.ibb.co/bKVsNWC/zustand-1.png)
+![Home](https://i.ibb.co/3Wh9xfb/zustand-state-management.png)
 - Home Page
   
 ## Run Locally
